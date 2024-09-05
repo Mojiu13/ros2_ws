@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/jazzy/include/**",
+                "/home/mojiu/ros2_ws/src/cpp_pubsub/include/**",
+                "/usr/include/**",
+                "/opt/ros/jazzy/include/std_msgs",
+                "/opt/ros/jazzy/include/rclcpp",
+                "/opt/ros/jazzy/include/rcl_interfaces"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
