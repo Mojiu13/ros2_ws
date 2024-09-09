@@ -11,7 +11,8 @@
                 "/usr/include/**",
                 "/opt/ros/jazzy/include/std_msgs",
                 "/opt/ros/jazzy/include/rclcpp",
-                "/opt/ros/jazzy/include/rcl_interfaces"
+                "/opt/ros/jazzy/include/rcl_interfaces",
+                "${workspaceFolder}/build/tutorial_interfaces/rosidl_generator_cpp"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

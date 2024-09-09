@@ -3,7 +3,7 @@
 <package format="3">
   <name>tutorial_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Creating custom msg and srv files</description>
   <maintainer email="timeworld168@gmail.com">mojiu</maintainer>
   <license>Apache-2.0</license>
 

@@ -1,0 +1,31 @@
+[0.012s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.042s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.252s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.280s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.291s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.392s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.394s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.565s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.589s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.589s]   By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.589s]   project has asked CMake to find a package configuration file provided by
+[0.589s]   "tutorial_interfaces", but CMake did not find one.
+[0.590s] 
+[0.590s]   Could not find a package configuration file provided by
+[0.590s]   "tutorial_interfaces" with any of the following names:
+[0.590s] 
+[0.590s]     tutorial_interfacesConfig.cmake
+[0.590s]     tutorial_interfaces-config.cmake
+[0.590s] 
+[0.590s]   Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH
+[0.590s]   or set "tutorial_interfaces_DIR" to a directory containing one of the above
+[0.591s]   files.  If "tutorial_interfaces" provides a separate development package or
+[0.591s]   SDK, be sure it has been installed.
+[0.591s] 
+[0.591s] [0m
+[0.591s] -- Configuring incomplete, errors occurred!
+[0.595s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[0.597s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_pubsub -- -j8 -l8
