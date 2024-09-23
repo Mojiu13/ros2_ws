@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/mojiu/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/more_interfaces
+[0.098s] -- The C compiler identification is GNU 13.2.0
+[0.178s] -- The CXX compiler identification is GNU 13.2.0
+[0.197s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.422s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.565s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.676s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.360s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.350s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.481s] -- Found PythonExtra: /usr/bin/python3  
+[2.939s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.974s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.075s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.078s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.168s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.189s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.213s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.307s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.332s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.332s] -- Configured cppcheck include dirs: 
+[3.332s] -- Configured cppcheck exclude dirs and/or files: 
+[3.334s] -- Added test 'lint_cmake' to check CMake code style
+[3.335s] -- Added test 'uncrustify' to check C / C++ code style
+[3.335s] -- Configured uncrustify additional arguments: 
+[3.336s] -- Added test 'xmllint' to check XML markup files
+[3.340s] -- Configuring done (3.3s)
+[3.385s] -- Generating done (0.0s)
+[3.388s] -- Build files have been written to: /home/mojiu/ros2_ws/build/more_interfaces
+[3.400s] Invoked command in '/home/mojiu/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/more_interfaces
+[3.402s] Invoking command in '/home/mojiu/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/more_interfaces -- -j8 -l8
+[3.451s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.451s] [  5%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[3.459s] [  5%] Built target ament_cmake_python_copy_more_interfaces
+[3.721s] [  5%] Built target more_interfaces__rosidl_generator_type_description
+[3.735s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.748s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.759s] running egg_info
+[3.760s] creating more_interfaces.egg-info
+[3.796s] [01m[K/home/mojiu/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: 没有那个文件或目录
+[3.796s]     5 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+[3.796s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.796s] compilation terminated.
+[3.800s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76：CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] 错误 1
+[3.800s] gmake[1]: *** [CMakeFiles/Makefile2:623：CMakeFiles/publish_address_book.dir/all] 错误 2
+[3.800s] gmake[1]: *** 正在等待未完成的任务....
+[3.802s] writing more_interfaces.egg-info/PKG-INFO
+[3.803s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[3.803s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[3.803s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.923s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.923s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.968s] [ 11%] Built target ament_cmake_python_build_more_interfaces_egg
+[4.083s] [ 13%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o[0m
+[4.083s] [ 16%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[4.085s] [ 19%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[4.104s] [ 19%] Built target more_interfaces__cpp
+[4.158s] [ 22%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[4.196s] [ 22%] Built target more_interfaces__rosidl_generator_c
+[4.197s] gmake: *** [Makefile:146：all] 错误 2
+[4.199s] Invoked command in '/home/mojiu/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/more_interfaces -- -j8 -l8

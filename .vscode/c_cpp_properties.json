@@ -18,7 +18,8 @@
                 "/opt/ros/jazzy/include/service_msgs",
                 "/opt/ros/jazzy/include/builtin_interfaces",
                 "/opt/ros/jazzy/include/rosidl_typesupport_interface",
-                "/opt/ros/jazzy/include/rcutils"
+                "/opt/ros/jazzy/include/rcutils",
+                "/opt/ros/jazzy/include/rcl"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

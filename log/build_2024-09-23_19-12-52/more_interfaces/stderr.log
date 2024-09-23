@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):
+  more_interfaces is not a CMake target.  Maybe rosidl_generate_interfaces
+  was given a different target name?
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (rosidl_get_typesupport_target)
+
+[0m
+gmake: *** [Makefile:856：cmake_check_build_system] 错误 1

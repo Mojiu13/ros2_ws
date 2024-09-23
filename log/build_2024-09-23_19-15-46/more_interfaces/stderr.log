@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:14 (rosidl_get_typesupport_target):
+  Unknown CMake command "rosidl_get_typesupport_target".
+
+[0m
+gmake: *** [Makefile:856：cmake_check_build_system] 错误 1
