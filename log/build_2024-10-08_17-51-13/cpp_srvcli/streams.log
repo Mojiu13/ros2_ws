@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.049s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.386s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.521s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.612s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.717s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.833s] -- Found tutorial_interfaces: 0.0.0 (/home/mojiu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.087s] -- Configuring done (1.0s)
+[1.120s] -- Generating done (0.0s)
+[1.124s] -- Build files have been written to: /home/mojiu/ros2_ws/build/cpp_srvcli
+[1.192s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.199s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[6.690s] [ 75%] [32m[1mLinking CXX executable server[0m
+[6.884s] [ 75%] Built target server
+[7.421s] [100%] [32m[1mLinking CXX executable client[0m
+[7.609s] [100%] Built target client
+[7.620s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[7.645s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mojiu/ros2_ws/build/cpp_srvcli
+[7.652s] -- Install configuration: ""
+[7.653s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[7.654s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[7.654s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[7.656s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[7.656s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[7.656s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[7.656s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[7.656s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[7.657s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[7.657s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[7.657s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[7.657s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[7.657s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[7.658s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[7.658s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[7.658s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[7.659s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[7.659s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[7.659s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[7.661s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mojiu/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mojiu/ros2_ws/build/cpp_srvcli

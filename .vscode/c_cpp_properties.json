@@ -19,7 +19,10 @@
                 "/opt/ros/jazzy/include/builtin_interfaces",
                 "/opt/ros/jazzy/include/rosidl_typesupport_interface",
                 "/opt/ros/jazzy/include/rcutils",
-                "/opt/ros/jazzy/include/rcl"
+                "/opt/ros/jazzy/include/rcl",
+                "${workspaceFolder}/install/polygon_base/include",
+                "${workspaceFolder}/build/custom_action_interfaces/rosidl_generator_cpp",
+                "${workspaceFolder}/src/custom_action_cpp/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

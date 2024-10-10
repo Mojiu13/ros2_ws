@@ -9,6 +9,8 @@
     "files.associations": {
         "*.dmp": "plaintext",
         "cstdlib": "cpp",
-        "memory": "cpp"
+        "memory": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp"
     }
 }
