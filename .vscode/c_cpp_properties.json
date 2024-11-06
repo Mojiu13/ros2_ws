@@ -22,7 +22,8 @@
                 "/opt/ros/jazzy/include/rcl",
                 "${workspaceFolder}/install/polygon_base/include",
                 "${workspaceFolder}/build/custom_action_interfaces/rosidl_generator_cpp",
-                "${workspaceFolder}/src/custom_action_cpp/include"
+                "${workspaceFolder}/src/custom_action_cpp/include",
+                "/opt/ros/jazzy/include/rmw"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
