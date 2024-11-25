@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/mojiu/ros2_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_topic_rclcpp -- -j8 -l8
+[0.069s] [ 50%] Built target topic_publisher_01
+[0.072s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.359s] [01m[K/home/mojiu/ros2_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[0.359s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.360s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.360s] compilation terminated.
+[0.366s] gmake[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:76：CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] 错误 1
+[0.366s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[0.367s] gmake: *** [Makefile:146：all] 错误 2
+[0.369s] Invoked command in '/home/mojiu/ros2_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_topic_rclcpp -- -j8 -l8

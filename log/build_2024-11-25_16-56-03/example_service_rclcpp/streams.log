@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/mojiu/ros2_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_service_rclcpp -- -j8 -l8
+[0.065s] [ 25%] [32m[1mLinking CXX executable service_client_01[0m
+[0.078s] [ 75%] Built target service_server_01
+[0.169s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.169s] (.text+0x1b): undefined reference to `main'
+[0.171s] collect2: error: ld returned 1 exit status
+[0.172s] gmake[2]: *** [CMakeFiles/service_client_01.dir/build.make:185：service_client_01] 错误 1
+[0.172s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/service_client_01.dir/all] 错误 2
+[0.173s] gmake: *** [Makefile:146：all] 错误 2
+[0.175s] Invoked command in '/home/mojiu/ros2_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_service_rclcpp -- -j8 -l8

@@ -12,5 +12,6 @@
         "memory": "cpp",
         "chrono": "cpp",
         "functional": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/mojiu/ros2_ws/src/cpp_parameters"
 }

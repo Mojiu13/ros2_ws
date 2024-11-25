@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/mojiu/ros2_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_service_rclcpp -- -j8 -l8
+[0.072s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[0.072s] [ 75%] Built target service_server_01
+[4.246s] [100%] [32m[1mLinking CXX executable service_client_01[0m
+[4.402s] [100%] Built target service_client_01
+[4.413s] Invoked command in '/home/mojiu/ros2_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_service_rclcpp -- -j8 -l8
+[4.451s] Invoking command in '/home/mojiu/ros2_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/example_service_rclcpp
+[4.459s] -- Install configuration: ""
+[4.459s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[4.459s] -- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[4.461s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
+[4.461s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[4.461s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[4.461s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[4.461s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[4.461s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[4.462s] -- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[4.462s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[4.463s] Invoked command in '/home/mojiu/ros2_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/example_service_rclcpp

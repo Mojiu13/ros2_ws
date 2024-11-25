@@ -1,0 +1,8 @@
+[0.012s] Invoking command in '/home/mojiu/ros2_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_topic_rclcpp -- -j8 -l8
+[0.039s] [31mCMake Error at CMakeLists.txt:9 (ament_target_dependencies):
+[0.039s]   Unknown CMake command "ament_target_dependencies".
+[0.039s] 
+[0.039s] [0m
+[0.039s] -- Configuring incomplete, errors occurred!
+[0.040s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.043s] Invoked command in '/home/mojiu/ros2_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_topic_rclcpp -- -j8 -l8

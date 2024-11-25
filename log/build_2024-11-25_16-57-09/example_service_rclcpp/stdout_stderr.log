@@ -1,0 +1,20 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[ 75%] Built target service_server_01
+[100%] [32m[1mLinking CXX executable service_client_01[0m
+[100%] Built target service_client_01
+-- Install configuration: ""
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+-- Installing: /home/mojiu/ros2_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
