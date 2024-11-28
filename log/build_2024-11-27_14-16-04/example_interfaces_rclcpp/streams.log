@@ -1,0 +1,29 @@
+[0.040s] Invoking command in '/home/mojiu/ros2_ws/build/example_interfaces_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/example_interfaces_rclcpp -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/example_interfaces_rclcpp
+[0.073s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.671s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.745s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.766s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.952s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.956s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.250s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.251s]   By not providing "Findexample_ros2_interfaces.cmake" in CMAKE_MODULE_PATH
+[1.251s]   this project has asked CMake to find a package configuration file provided
+[1.251s]   by "example_ros2_interfaces", but CMake did not find one.
+[1.251s] 
+[1.252s]   Could not find a package configuration file provided by
+[1.252s]   "example_ros2_interfaces" with any of the following names:
+[1.252s] 
+[1.252s]     example_ros2_interfacesConfig.cmake
+[1.252s]     example_ros2_interfaces-config.cmake
+[1.252s] 
+[1.253s]   Add the installation prefix of "example_ros2_interfaces" to
+[1.253s]   CMAKE_PREFIX_PATH or set "example_ros2_interfaces_DIR" to a directory
+[1.254s]   containing one of the above files.  If "example_ros2_interfaces" provides a
+[1.254s]   separate development package or SDK, be sure it has been installed.
+[1.255s] 
+[1.255s] [0m
+[1.255s] -- Configuring incomplete, errors occurred!
+[1.262s] Invoked command in '/home/mojiu/ros2_ws/build/example_interfaces_rclcpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/example_interfaces_rclcpp -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/example_interfaces_rclcpp

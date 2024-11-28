@@ -1,0 +1,44 @@
+[0.058s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/home/mojiu/ros2_ws/install/cpp_srvcli:/home/mojiu/ros2_ws/install/polygon_plugins:/home/mojiu/ros2_ws/install/polygon_base:/home/mojiu/ros2_ws/install/more_interfaces:/home/mojiu/ros2_ws/install/example_topic_rclcpp:/home/mojiu/ros2_ws/install/example_service_rclcpp:/home/mojiu/ros2_ws/install/custom_action_cpp:/home/mojiu/ros2_ws/install/custom_action_interfaces:/home/mojiu/ros2_ws/install/cpp_pubsub:/home/mojiu/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.116s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.435s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.453s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.819s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.917s] -- Found tutorial_interfaces: 0.0.0 (/home/mojiu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.242s] -- Configuring done (1.1s)
+[1.322s] -- Generating done (0.1s)
+[1.330s] -- Build files have been written to: /home/mojiu/ros2_ws/build/cpp_srvcli
+[1.456s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.479s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[9.174s] [ 75%] [32m[1mLinking CXX executable server[0m
+[9.407s] [ 75%] Built target server
+[9.872s] [100%] [32m[1mLinking CXX executable client[0m
+[10.075s] [100%] Built target client
+[10.088s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/home/mojiu/ros2_ws/install/cpp_srvcli:/home/mojiu/ros2_ws/install/polygon_plugins:/home/mojiu/ros2_ws/install/polygon_base:/home/mojiu/ros2_ws/install/more_interfaces:/home/mojiu/ros2_ws/install/example_topic_rclcpp:/home/mojiu/ros2_ws/install/example_service_rclcpp:/home/mojiu/ros2_ws/install/custom_action_cpp:/home/mojiu/ros2_ws/install/custom_action_interfaces:/home/mojiu/ros2_ws/install/cpp_pubsub:/home/mojiu/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[10.122s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/home/mojiu/ros2_ws/install/cpp_srvcli:/home/mojiu/ros2_ws/install/polygon_plugins:/home/mojiu/ros2_ws/install/polygon_base:/home/mojiu/ros2_ws/install/more_interfaces:/home/mojiu/ros2_ws/install/example_topic_rclcpp:/home/mojiu/ros2_ws/install/example_service_rclcpp:/home/mojiu/ros2_ws/install/custom_action_cpp:/home/mojiu/ros2_ws/install/custom_action_interfaces:/home/mojiu/ros2_ws/install/cpp_pubsub:/home/mojiu/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/cpp_srvcli
+[10.134s] -- Install configuration: ""
+[10.135s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[10.137s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[10.138s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[10.140s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[10.140s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[10.140s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[10.141s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[10.141s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[10.141s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[10.141s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[10.141s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[10.141s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[10.142s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[10.142s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[10.142s] -- Installing: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[10.142s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[10.142s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[10.142s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[10.142s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[10.144s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mojiu/ros2_ws/install/tutorial_interfaces:/home/mojiu/ros2_ws/install/cpp_srvcli:/home/mojiu/ros2_ws/install/polygon_plugins:/home/mojiu/ros2_ws/install/polygon_base:/home/mojiu/ros2_ws/install/more_interfaces:/home/mojiu/ros2_ws/install/example_topic_rclcpp:/home/mojiu/ros2_ws/install/example_service_rclcpp:/home/mojiu/ros2_ws/install/custom_action_cpp:/home/mojiu/ros2_ws/install/custom_action_interfaces:/home/mojiu/ros2_ws/install/cpp_pubsub:/home/mojiu/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/cpp_srvcli

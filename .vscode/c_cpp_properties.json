@@ -27,7 +27,8 @@
                 "/opt/ros/jazzy/include/rcpputils",
                 "/opt/ros/jazzy/include/rcl_yaml_param_parser",
                 "/opt/ros/jazzy/include/example_interfaces",
-                "/opt/ros/jazzy/include/type_description_interfaces"
+                "/opt/ros/jazzy/include/type_description_interfaces",
+                "/opt/ros/jazzy/include/rosidl_dynamic_typesupport"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

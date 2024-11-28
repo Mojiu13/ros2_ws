@@ -1,0 +1,209 @@
+[0.011s] Invoking command in '/home/mojiu/ros2_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_ros2_interfaces -- -j8 -l8
+[0.066s] [  1%] Built target example_ros2_interfaces__rosidl_generator_type_description
+[0.080s] [  1%] Built target ament_cmake_python_copy_example_ros2_interfaces
+[0.095s] [  3%] Built target example_ros2_interfaces__cpp
+[0.099s] [ 24%] Built target example_ros2_interfaces__rosidl_generator_c
+[0.137s] [ 33%] Built target example_ros2_interfaces__rosidl_typesupport_c
+[0.146s] [ 42%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.153s] [ 51%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_cpp
+[0.154s] [ 61%] Built target example_ros2_interfaces__rosidl_typesupport_introspection_c
+[0.158s] [ 70%] Built target example_ros2_interfaces__rosidl_typesupport_cpp
+[0.159s] [ 79%] Built target example_ros2_interfaces__rosidl_typesupport_fastrtps_c
+[0.181s] [ 79%] Built target example_ros2_interfaces
+[0.205s] [ 81%] Built target example_ros2_interfaces__py
+[0.233s] [ 88%] Built target example_ros2_interfaces__rosidl_generator_py
+[0.260s] [ 92%] Built target example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.263s] [ 96%] Built target example_ros2_interfaces_s__rosidl_typesupport_introspection_c
+[0.265s] [100%] Built target example_ros2_interfaces_s__rosidl_typesupport_c
+[0.366s] running egg_info
+[0.389s] writing example_ros2_interfaces.egg-info/PKG-INFO
+[0.389s] writing dependency_links to example_ros2_interfaces.egg-info/dependency_links.txt
+[0.390s] writing top-level names to example_ros2_interfaces.egg-info/top_level.txt
+[0.459s] reading manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[0.460s] writing manifest file 'example_ros2_interfaces.egg-info/SOURCES.txt'
+[0.490s] [100%] Built target ament_cmake_python_build_example_ros2_interfaces_egg
+[0.503s] Invoked command in '/home/mojiu/ros2_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/example_ros2_interfaces -- -j8 -l8
+[0.623s] Invoking command in '/home/mojiu/ros2_ws/build/example_ros2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/example_ros2_interfaces
+[0.631s] -- Install configuration: ""
+[0.632s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_ros2_interfaces
+[0.632s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.json
+[0.632s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.json
+[0.632s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.json
+[0.633s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[0.633s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[0.633s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.h
+[0.633s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[0.633s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.h
+[0.633s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.c
+[0.634s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.c
+[0.634s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__functions.h
+[0.634s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.h
+[0.634s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__description.c
+[0.634s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[0.635s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.h
+[0.635s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[0.635s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.c
+[0.635s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.c
+[0.635s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.h
+[0.636s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__description.c
+[0.636s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.h
+[0.636s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.c
+[0.636s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.h
+[0.636s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__functions.h
+[0.636s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.h
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__description.c
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.h
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__functions.c
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.h
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.sh
+[0.637s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/library_path.dsv
+[0.638s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_c.so
+[0.638s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[0.638s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[0.638s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[0.638s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[0.638s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[0.639s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.639s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[0.639s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+[0.639s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[0.639s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.639s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.c
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[0.640s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.c
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.c
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_c.so
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_c.so
+[0.641s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/move_robot.hpp
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__builder.hpp
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__struct.hpp
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__traits.hpp
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.hpp
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[0.642s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_status.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__struct.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__traits.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__builder.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__struct.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__builder.hpp
+[0.643s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__traits.hpp
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/robot_pose.hpp
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/dds_fastrtps
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[0.644s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/dds_fastrtps
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail
+[0.645s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/srv/detail/move_robot__type_support.cpp
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__type_support.cpp
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_status__type_support.cpp
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/include/example_ros2_interfaces/example_ros2_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.646s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_typesupport_cpp.so
+[0.647s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.sh
+[0.647s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/pythonpath.dsv
+[0.647s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces-0.0.0-py3.12.egg-info
+[0.647s] -- Installing: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[0.647s] -- Installing: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.647s] -- Installing: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[0.647s] -- Installing: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.647s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces
+[0.647s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_c.c
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/__init__.py
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.so
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/srv
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/srv/_move_robot.py
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/srv/_move_robot_s.c
+[0.648s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/srv/__init__.py
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg/_robot_status_s.c
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg/_robot_pose_s.c
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg/_robot_pose.py
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg/__init__.py
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg/_robot_status.py
+[0.649s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/_example_ros2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.682s] Listing '/home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces'...
+[0.682s] Listing '/home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/msg'...
+[0.682s] Listing '/home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/srv'...
+[0.689s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.690s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.690s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/python3.12/site-packages/example_ros2_interfaces/example_ros2_interfaces_s__rosidl_typesupport_c.so
+[0.690s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/lib/libexample_ros2_interfaces__rosidl_generator_py.so
+[0.691s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.idl
+[0.691s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.idl
+[0.691s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.idl
+[0.691s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotPose.msg
+[0.692s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/msg/RobotStatus.msg
+[0.692s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/srv/MoveRobot.srv
+[0.692s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/example_ros2_interfaces
+[0.692s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/example_ros2_interfaces
+[0.692s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.sh
+[0.692s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/ament_prefix_path.dsv
+[0.693s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.sh
+[0.693s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/environment/path.dsv
+[0.693s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.bash
+[0.693s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.sh
+[0.693s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.zsh
+[0.693s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/local_setup.dsv
+[0.694s] -- Installing: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.dsv
+[0.694s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/ament_index/resource_index/packages/example_ros2_interfaces
+[0.694s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport.cmake
+[0.694s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.694s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_cppExport.cmake
+[0.695s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport.cmake
+[0.696s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/export_example_ros2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/cmake/example_ros2_interfacesConfig-version.cmake
+[0.697s] -- Up-to-date: /home/mojiu/ros2_ws/install/example_ros2_interfaces/share/example_ros2_interfaces/package.xml
+[0.698s] Invoked command in '/home/mojiu/ros2_ws/build/example_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/example_ros2_interfaces

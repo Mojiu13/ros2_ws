@@ -1,0 +1,40 @@
+[0.042s] Invoking command in '/home/mojiu/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/custom_action_interfaces -- -j8 -l8
+[0.164s] [  2%] Built target custom_action_interfaces__rosidl_generator_type_description
+[0.209s] [  5%] Built target custom_action_interfaces__cpp
+[0.210s] [  5%] Built target ament_cmake_python_copy_custom_action_interfaces
+[0.224s] [ 20%] Built target custom_action_interfaces__rosidl_generator_c
+[0.307s] [ 23%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[0.315s] [ 32%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c
+[0.324s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[0.335s] [ 44%] Built target custom_action_interfaces__rosidl_typesupport_c
+[0.335s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[0.352s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_action_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[1.355s] running egg_info
+[1.515s] writing custom_action_interfaces.egg-info/PKG-INFO
+[1.517s] writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt
+[1.517s] writing top-level names to custom_action_interfaces.egg-info/top_level.txt
+[2.043s] reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[2.049s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[2.272s] [ 50%] Built target ament_cmake_python_build_custom_action_interfaces_egg
+[2.674s] [ 52%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.485s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp
+[4.546s] [ 58%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.800s] [ 61%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c
+[4.995s] [ 64%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_cpp.so[0m
+[5.319s] [ 67%] Built target custom_action_interfaces__rosidl_typesupport_cpp
+[6.013s] [ 70%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.216s] [ 73%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.264s] [ 73%] Built target custom_action_interfaces
+[6.301s] [ 76%] Built target custom_action_interfaces__py
+[6.348s] [ 79%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o[0m
+[7.080s] [ 82%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_py.so[0m
+[7.175s] [ 82%] Built target custom_action_interfaces__rosidl_generator_py
+[7.230s] [ 85%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.234s] [ 88%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.234s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.539s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so[0m
+[7.587s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.639s] [ 97%] Built target custom_action_interfaces_s__rosidl_typesupport_c
+[7.671s] [ 97%] Built target custom_action_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.699s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.760s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_introspection_c

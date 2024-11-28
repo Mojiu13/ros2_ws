@@ -1,0 +1,27 @@
+[0.040s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.158s] [ 50%] Built target talker
+[0.177s] [100%] Built target listener
+[0.228s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.335s] Invoking command in '/home/mojiu/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/cpp_pubsub
+[0.352s] -- Install configuration: ""
+[0.353s] -- Installing: /home/mojiu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.355s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[0.356s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.358s] -- Installing: /home/mojiu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.368s] -- Set non-toolchain portion of runtime path of "/home/mojiu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[0.368s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.369s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.369s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.370s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.370s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.371s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.371s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.371s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.371s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.371s] -- Installing: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.371s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.371s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.372s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.374s] -- Up-to-date: /home/mojiu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.434s] Invoked command in '/home/mojiu/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/cpp_pubsub
