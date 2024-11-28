@@ -1,0 +1,44 @@
+[0.011s] Invoking command in '/home/mojiu/ros2_ws/build/example_action_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/example_action_rclcpp -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/example_action_rclcpp
+[0.129s] -- The C compiler identification is GNU 13.2.0
+[0.223s] -- The CXX compiler identification is GNU 13.2.0
+[0.246s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.353s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.477s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.655s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.787s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.840s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.860s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.914s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.021s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.115s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.146s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.282s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.283s]   By not providing "Findrobot_control_interfaces.cmake" in CMAKE_MODULE_PATH
+[1.283s]   this project has asked CMake to find a package configuration file provided
+[1.283s]   by "robot_control_interfaces", but CMake did not find one.
+[1.283s] 
+[1.283s]   Could not find a package configuration file provided by
+[1.283s]   "robot_control_interfaces" with any of the following names:
+[1.283s] 
+[1.283s]     robot_control_interfacesConfig.cmake
+[1.283s]     robot_control_interfaces-config.cmake
+[1.284s] 
+[1.284s]   Add the installation prefix of "robot_control_interfaces" to
+[1.284s]   CMAKE_PREFIX_PATH or set "robot_control_interfaces_DIR" to a directory
+[1.284s]   containing one of the above files.  If "robot_control_interfaces" provides
+[1.284s]   a separate development package or SDK, be sure it has been installed.
+[1.284s] 
+[1.284s] [0m
+[1.284s] -- Configuring incomplete, errors occurred!
+[1.293s] Invoked command in '/home/mojiu/ros2_ws/build/example_action_rclcpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/example_action_rclcpp -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/example_action_rclcpp

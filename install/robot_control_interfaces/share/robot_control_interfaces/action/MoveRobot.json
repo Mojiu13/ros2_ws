@@ -1,0 +1,532 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robot_control_interfaces/action/MoveRobot",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_control_interfaces/action/MoveRobot_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_control_interfaces/action/MoveRobot_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_control_interfaces/action/MoveRobot_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_control_interfaces/action/MoveRobot_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_control_interfaces/action/MoveRobot_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robot_control_interfaces/action/MoveRobot_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_Feedback",
+        "fields": [
+          {
+            "name": "pose",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "status",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_Goal",
+        "fields": [
+          {
+            "name": "distance",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_Result",
+        "fields": [
+          {
+            "name": "pose",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robot_control_interfaces/action/MoveRobot_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot",
+      "hash_string": "RIHS01_15522b2905f280007542b03cb7cfe75e79129000fe5f43f6bcd13e3a68331b13"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_Feedback",
+      "hash_string": "RIHS01_e4401142b0a0987b8c555e9ccd505d5781e4185d2fdcad47124c6fb7e980086d"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_FeedbackMessage",
+      "hash_string": "RIHS01_9359bed6bded2c86a6f1f27bbc14f2b00b8b61a9e1c4a9a5ce1e10252d1fc236"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_GetResult",
+      "hash_string": "RIHS01_a6a2bf77f7dbbf327a7d9288d7e7777382a30bfe5671504fd0871d0bc157bdea"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Event",
+      "hash_string": "RIHS01_f2340a3647ec1f04bcf57f0ac019ae7590c584067f6995ea7bd91a731488af35"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Request",
+      "hash_string": "RIHS01_4cf036e18a0429ed172c025a4c63ea425e10d392b9f3bf48eeb511d91d1c8101"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_GetResult_Response",
+      "hash_string": "RIHS01_dfb37634201fac39cf2b25d9f8b534e60f88a9b9241735a8446d7ae2918a3d01"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_Goal",
+      "hash_string": "RIHS01_27bead5466bc02923bd97a39618f60682e5f62e6de51c3b127fddc139430d2c7"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_Result",
+      "hash_string": "RIHS01_9c69e205b39351e3187b9c529c3511400772c2ca19b5d6342539ef9ba9a31b88"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal",
+      "hash_string": "RIHS01_72c3b88240a31f82db90a76c3f7106aad45cd0844ad6263934f2d647a41ab9d6"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Event",
+      "hash_string": "RIHS01_ec184a0fa64c1f94b9ebfad634aaf4826fd5e46574220eaa8ae4cff5f560701c"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Request",
+      "hash_string": "RIHS01_70ddb6ba2150c7851c06909429ccdabbb43b76f37fb1c11549a31ab68412c102"
+    },
+    {
+      "type_name": "robot_control_interfaces/action/MoveRobot_SendGoal_Response",
+      "hash_string": "RIHS01_d7d05b178bcc8d8d45b46cb3172722409acf1618105893434b71bf0ccdbadf05"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}
