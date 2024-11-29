@@ -10,8 +10,11 @@ public:
         RCLCPP_INFO(this->get_logger(), "大家好，我是%s.", name.c_str());
         // 创建发布者
         command_publisher_ = this->create_publisher<std_msgs::msg::String>("command", 10);
-        // 创建定时器，500ms为周期，定时发布
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TopicPublisher01::timer_callback, this));
+        // 创建定时器，500ms为周s期，定时发布
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(500), 
+            std::bind(&TopicPublisher01::timer_callback, this)
+            );
     }
 
 private:
