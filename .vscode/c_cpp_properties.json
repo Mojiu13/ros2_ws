@@ -28,7 +28,8 @@
                 "/opt/ros/jazzy/include/rcl_yaml_param_parser",
                 "/opt/ros/jazzy/include/example_interfaces",
                 "/opt/ros/jazzy/include/type_description_interfaces",
-                "/opt/ros/jazzy/include/rosidl_dynamic_typesupport"
+                "/opt/ros/jazzy/include/rosidl_dynamic_typesupport",
+                "/opt/ros/jazzy/include/tracetools"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

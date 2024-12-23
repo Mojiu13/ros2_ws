@@ -22,7 +22,7 @@ public:
   : Node("fibonacci_action_server", options)
   {
     using namespace std::placeholders;
-
+你
     auto handle_goal = [this](
       const rclcpp_action::GoalUUID & uuid,
       std::shared_ptr<const Fibonacci::Goal> goal)
