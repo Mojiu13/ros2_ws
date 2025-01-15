@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000482] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000827] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000953] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000985] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.001014] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.001042] (-) JobUnselected: {'identifier': 'customer_topic'}
+[0.001069] (-) JobUnselected: {'identifier': 'example_action_rclcpp'}
+[0.001096] (-) JobUnselected: {'identifier': 'example_interfaces_rclcpp'}
+[0.001123] (-) JobUnselected: {'identifier': 'example_parameters_rclcpp'}
+[0.001150] (-) JobUnselected: {'identifier': 'example_ros2_interfaces'}
+[0.001177] (-) JobUnselected: {'identifier': 'example_service_rclcpp'}
+[0.001215] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.001271] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001300] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.001327] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.001354] (-) JobUnselected: {'identifier': 'robot_control_interfaces'}
+[0.001380] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001410] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.001441] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.013635] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.014370] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/mojiu/ros2_ws/src/learning_tf2_cpp', '-DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/learning_tf2_cpp'], 'cwd': '/home/mojiu/ros2_ws/build/learning_tf2_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'mojiu', 'LC_TIME': 'en_US.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'all_proxy': 'socks5://127.0.0.1:7897', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mojiu', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.96.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2549', 'SYSTEMD_EXEC_PID': '2981', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '63816', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'https_proxy': 'http://127.0.0.1:7897', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mojiu', 'http_proxy': 'http://127.0.0.1:7897', 'JOURNAL_STREAM': '8:20323', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'mojiu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/mojiu/miniconda3/bin:/home/mojiu/.local/bin:/home/mojiu/miniconda3/condabin:/home/mojiu/miniconda3/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/mojiu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mojiu/.local/bin:/home/mojiu/.local/bin:/home/mojiu/.local/bin:/home/mojiu/.local/bin:/home/mojiu/.local/bin:/home/mojiu/.local/bin', 'SESSION_MANAGER': 'local/mojiutable:@/tmp/.ICE-unix/2885,unix/mojiutable:/tmp/.ICE-unix/2885', 'INVOCATION_ID': 'fa9babf153ac439c887b691d6d4119e6', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0ec71a90d8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/mojiu/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mojiu/ros2_ws/build/learning_tf2_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/mojiu/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.035551] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099480] (-) TimerEvent: {}
+[0.199758] (-) TimerEvent: {}
+[0.300072] (-) TimerEvent: {}
+[0.313681] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.375585] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.399389] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.400555] (-) TimerEvent: {}
+[0.433924] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.472448] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501271] (-) TimerEvent: {}
+[0.576346] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.601376] (-) TimerEvent: {}
+[0.701678] (-) TimerEvent: {}
+[0.710302] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.712951] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801787] (-) TimerEvent: {}
+[0.858571] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902523] (-) TimerEvent: {}
+[1.003016] (-) TimerEvent: {}
+[1.040398] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.051574] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.103108] (-) TimerEvent: {}
+[1.206215] (-) TimerEvent: {}
+[1.306562] (-) TimerEvent: {}
+[1.346964] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[1.402307] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.406662] (-) TimerEvent: {}
+[1.450054] (learning_tf2_cpp) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.450385] (learning_tf2_cpp) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[1.450567] (learning_tf2_cpp) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[1.450733] (learning_tf2_cpp) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[1.454039] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.454359] (learning_tf2_cpp) StderrLine: {'line': b'  execute_process(/home/mojiu/miniconda3/bin/python3\n'}
+[1.454563] (learning_tf2_cpp) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.454778] (learning_tf2_cpp) StderrLine: {'line': b'  /home/mojiu/ros2_ws/src/learning_tf2_cpp/package.xml\n'}
+[1.454963] (learning_tf2_cpp) StderrLine: {'line': b'  /home/mojiu/ros2_ws/build/learning_tf2_cpp/ament_cmake_core/package.cmake)\n'}
+[1.455143] (learning_tf2_cpp) StderrLine: {'line': b'  returned error code 1\n'}
+[1.455345] (learning_tf2_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.455534] (learning_tf2_cpp) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.455741] (learning_tf2_cpp) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.455934] (learning_tf2_cpp) StderrLine: {'line': b'  CMakeLists.txt:38 (ament_lint_auto_find_test_dependencies)\n'}
+[1.456126] (learning_tf2_cpp) StderrLine: {'line': b'\n'}
+[1.456328] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.456499] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.471380] (learning_tf2_cpp) CommandEnded: {'returncode': 1}
+[1.507825] (-) TimerEvent: {}
+[1.510800] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 1}
+[1.512573] (-) EventReactorShutdown: {}

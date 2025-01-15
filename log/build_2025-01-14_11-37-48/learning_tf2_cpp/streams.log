@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/mojiu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.076s] [100%] Built target static_turtle_tf2_broadcaster
+[0.089s] Invoked command in '/home/mojiu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mojiu/ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.100s] Invoking command in '/home/mojiu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/learning_tf2_cpp
+[0.110s] -- Install configuration: ""
+[0.111s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[0.111s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[0.111s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[0.111s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[0.111s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[0.112s] -- Installing: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[0.112s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[0.113s] -- Up-to-date: /home/mojiu/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[0.113s] Invoked command in '/home/mojiu/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mojiu/ros2_ws/build/learning_tf2_cpp

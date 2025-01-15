@@ -21,10 +21,12 @@ public:
   explicit FibonacciActionClient(const rclcpp::NodeOptions & options)
   : Node("fibonacci_action_client", options)
   {
+    // 初始化动作客户端
     this->client_ptr_ = rclcpp_action::create_client<Fibonacci>(
       this,
       "fibonacci");
 
+    // 设置定时器以延迟发送目标
     auto timer_callback_lambda = [this](){ return this->send_goal(); };
     this->timer_ = this->create_wall_timer(
       std::chrono::milliseconds(500),
@@ -35,19 +37,25 @@ public:
   {
     using namespace std::placeholders;
 
+    // 停止定时器以避免重复调用
     this->timer_->cancel();
 
+    // 等待动作服务端可用
     if (!this->client_ptr_->wait_for_action_server()) {
       RCLCPP_ERROR(this->get_logger(), "Action server not available after waiting");
       rclcpp::shutdown();
     }
 
+    // 创建目标消息
     auto goal_msg = Fibonacci::Goal();
     goal_msg.order = 10;
 
     RCLCPP_INFO(this->get_logger(), "Sending goal");
 
+    // 配置目标选项，包括目标响应、反馈和结果回调
     auto send_goal_options = rclcpp_action::Client<Fibonacci>::SendGoalOptions();
+
+    // 设置目标响应回调
     send_goal_options.goal_response_callback = [this](const GoalHandleFibonacci::SharedPtr & goal_handle)
     {
       if (!goal_handle) {
@@ -57,6 +65,7 @@ public:
       }
     };
 
+    // 设置反馈回调
     send_goal_options.feedback_callback = [this](
       GoalHandleFibonacci::SharedPtr,
       const std::shared_ptr<const Fibonacci::Feedback> feedback)
@@ -69,6 +78,7 @@ public:
       RCLCPP_INFO(this->get_logger(), ss.str().c_str());
     };
 
+    // 设置结果回调
     send_goal_options.result_callback = [this](const GoalHandleFibonacci::WrappedResult & result)
     {
       switch (result.code) {
@@ -92,14 +102,20 @@ public:
       RCLCPP_INFO(this->get_logger(), ss.str().c_str());
       rclcpp::shutdown();
     };
+
+    // 异步发送目标
     this->client_ptr_->async_send_goal(goal_msg, send_goal_options);
   }
 
 private:
+  // 动作客户端指针
   rclcpp_action::Client<Fibonacci>::SharedPtr client_ptr_;
+  
+  // 定时器指针
   rclcpp::TimerBase::SharedPtr timer_;
 };  // class FibonacciActionClient
 
 }  // namespace custom_action_cpp
 
+// 注册节点为组件
 RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)

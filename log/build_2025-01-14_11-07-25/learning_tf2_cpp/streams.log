@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/mojiu/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/learning_tf2_cpp
+[0.024s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.216s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.244s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.419s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.601s] -- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+[0.605s] -- Found tf2_ros: 0.36.7 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.756s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.785s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.805s] Traceback (most recent call last):
+[0.805s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.805s]     from catkin_pkg.package import parse_package_string
+[0.806s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.809s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.809s]   execute_process(/home/mojiu/miniconda3/bin/python3
+[0.809s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.810s]   /home/mojiu/ros2_ws/src/learning_tf2_cpp/package.xml
+[0.810s]   /home/mojiu/ros2_ws/build/learning_tf2_cpp/ament_cmake_core/package.cmake)
+[0.810s]   returned error code 1
+[0.810s] Call Stack (most recent call first):
+[0.810s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.810s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.810s]   CMakeLists.txt:38 (ament_lint_auto_find_test_dependencies)
+[0.810s] 
+[0.810s] [0m
+[0.810s] -- Configuring incomplete, errors occurred!
+[0.819s] Invoked command in '/home/mojiu/ros2_ws/build/learning_tf2_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mojiu/ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/mojiu/ros2_ws/install/learning_tf2_cpp
